@@ -1,0 +1,52 @@
+:root{
+    --pink: #f86ce3;
+    --hotpink: #bd0a5d;
+    --grey: #3e3e3e;
+    --black: #000000;
+}
+.barbie-theme{
+    --bg: var(--pink);
+    --fontColor: var(--hotpink);
+    --btnBg: var(--hotpink);
+    --btnFontColor: var(--pink);
+}
+.emo-theme{
+    --bg: var(--grey);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--grey);
+}
+body{
+    background-color: var(--bg);
+}
+h1{
+    text-align: center;
+    color: var(--fontColor);
+}
+p{
+    text-align: center;
+    color: var(--fontColor);
+    font-size: large;
+}
+.barbie{
+    width:45%;
+    height:45%;
+    float:left;
+}
+.emo{
+    width:50%;
+    height:50%;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+.btn{
+    position:absolute;
+    align-items: center;
+    margin-top: 0px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
